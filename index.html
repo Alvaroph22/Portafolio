@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app-container">
+  <div class="app-header">
+    <div class="app-header-left">
+      <span class="app-icon"></span>
+      <p class="app-name">ALVARO ENRIQUE PERIÑAN HERNANDEZ</p>
+      <button class="profile-btn">
+        <a href="https://www.linkedin.com/in/alvaro-enrique-peri%C3%B1an-hernandez-289219220/">
+          <img src="./Galeria/linkedin.png"/>
+        </a>
+      </button>
+      <button class="profile-btn">
+        <a href="https://github.com/Alvaroph22/">
+          <img src="./Galeria/github.png"/>
+        </a>
+      </button>
+      <button class="profile-btn">
+        <a href="mailto:alvaroperinan@gmail.com">
+          <img src="./Galeria/correo.png"/>
+        </a>
+      </button>
+    </div>
+    <div class="app-header-right">
+      <button class="mode-switch" title="Switch Theme">
+        <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+        </svg>
+      </button>
+      <button class="profile-btn">
+        <img src="./Galeria/foto.jpg" />
+        <span>Hola, Alvaro Enrique.</span>
+      </button>
+    </div>
+
+  </div>
+  <div class="app-content">
+    
+    <div class="projects-section">
+      <div class="projects-section-header">
+        <p>Estudios</p>
+        <p class="time">
+          <time datetime="2001-05-15T19:00"></time> 
+        </p>
+      </div>
+      <div class="projects-section-line">
+        <div class="projects-status">
+          <div class="item-status">
+            <span class="status-number">1</span>
+            <span class="status-type">En progreso</span>
+          </div>
+          <div class="item-status">
+            <span class="status-number">5</span>
+            <span class="status-type">Finalizados</span>
+          </div>
+          <div class="item-status">
+            <span class="status-number">6</span>
+            <span class="status-type">Total</span>
+          </div>
+        </div>
+        <div class="view-actions">
+          <button class="view-btn list-view" title="List View">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list">
+              <line x1="8" y1="6" x2="21" y2="6" />
+              <line x1="8" y1="12" x2="21" y2="12" />
+              <line x1="8" y1="18" x2="21" y2="18" />
+              <line x1="3" y1="6" x2="3.01" y2="6" />
+              <line x1="3" y1="12" x2="3.01" y2="12" />
+              <line x1="3" y1="18" x2="3.01" y2="18" /></svg>
+          </button>
+          <button class="view-btn grid-view active" title="Grid View">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+              <rect x="3" y="3" width="7" height="7" />
+              <rect x="14" y="3" width="7" height="7" />
+              <rect x="14" y="14" width="7" height="7" />
+              <rect x="3" y="14" width="7" height="7" /></svg>
+          </button>
+        </div>
+      </div>
+      <div class="project-boxes jsGridView">
+        <div class="project-box-wrapper">
+          <div class="project-box" style="background-color: #fee4cb;">
+            <div class="project-box-header">
+              <span>Diciembre 10, 2004</span>
+              <div class="more-wrapper">
+                <button class="project-btn-more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                    <circle cx="12" cy="12" r="1" />
+                    <circle cx="12" cy="5" r="1" />
+                    <circle cx="12" cy="19" r="1" /></svg>
+                </button>
+          </div>
+        </div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">Programacion</p>
+          <p class="box-content-subheader">Tecnico</p>
+        </div>
+        <div class="box-progress-wrapper">
+          <p class="box-progress-header">Progreso</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #ff942e"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+        <div class="project-box-footer">
+          <div class="days-left"  style="color: #ff942e;">
+            Ver Diploma
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-box-wrapper">
+      <div class="project-box" style="background-color: #e9e7fd;">
+        <div class="project-box-header">
+          <span>Diciembre 10, 2006</span>
+          <div class="more-wrapper">
+            <button class="project-btn-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                <circle cx="12" cy="12" r="1" />
+                <circle cx="12" cy="5" r="1" />
+                <circle cx="12" cy="19" r="1" /></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">Mantenimiento de Hardware</p>
+          <p class="box-content-subheader">Tecnico Profesional</p>
+        </div>
+        <div class="box-progress-wrapper">
+          <p class="box-progress-header">Progreso</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #4f3ff0"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+        <div class="project-box-footer">
+          <div class="days-left" style="color: #4f3ff0;">
+            Ver Diploma
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-box-wrapper">
+      <div class="project-box">
+        <div class="project-box-header">
+          <span>Junio 10, 2015</span>
+          <div class="more-wrapper">
+            <button class="project-btn-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                <circle cx="12" cy="12" r="1" />
+                <circle cx="12" cy="5" r="1" />
+                <circle cx="12" cy="19" r="1" /></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">Administracion De Empresas</p>
+          <p class="box-content-subheader">Profesional</p>
+        </div>
+        <div class="box-progress-wrapper">
+          <p class="box-progress-header">Progreso</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #096c86"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+        <div class="project-box-footer">
+          <div class="days-left" style="color: #096c86;">
+            Ver Diploma
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-box-wrapper">
+      <div class="project-box" style="background-color: #ffd3e2;">
+        <div class="project-box-header">
+          <span>December 10, 2016</span>
+          <div class="more-wrapper">
+            <button class="project-btn-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                <circle cx="12" cy="12" r="1" />
+                <circle cx="12" cy="5" r="1" />
+                <circle cx="12" cy="19" r="1" /></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">Ingles</p>
+          <p class="box-content-subheader">Certificacion B1</p>
+        </div>
+        <div class="box-progress-wrapper">
+          <p class="box-progress-header">Progreso</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #df3670"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+        <div class="project-box-footer">
+          <div class="days-left" style="color: #df3670;">
+            Ver Diploma
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-box-wrapper">
+      <div class="project-box" style="background-color: #c8f7dc;">
+        <div class="project-box-header">
+          <span>December 20, 2021</span>
+          <div class="more-wrapper">
+            <button class="project-btn-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                <circle cx="12" cy="12" r="1" />
+                <circle cx="12" cy="5" r="1" />
+                <circle cx="12" cy="19" r="1" /></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">Python</p>
+          <p class="box-content-subheader">Programa Especializado</p>
+        </div>
+        <div class="box-progress-wrapper">
+          <p class="box-progress-header">Progreso</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #34c471"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+        <div class="project-box-footer">
+          <div class="days-left" style="color: #34c471;">
+            Ver Diploma
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-box-wrapper">
+      <div class="project-box" style="background-color: #d5deff;">
+        <div class="project-box-header">
+          <span>Actualmente</span>
+          <div class="more-wrapper">
+            <button class="project-btn-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                <circle cx="12" cy="12" r="1" />
+                <circle cx="12" cy="5" r="1" />
+                <circle cx="12" cy="19" r="1" /></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">Full Stack Developer</p>
+          <p class="box-content-subheader">Profesional</p>
+        </div>
+        <div class="box-progress-wrapper">
+          <p class="box-progress-header">Progreso</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 40%; background-color: #4067f9"></span>
+          </div>
+          <p class="box-progress-percentage">40%</p>
+        </div>
+        <div class="project-box-footer">
+          <div class="days-left" style="color: #4067f9;">
+            Ver Diploma
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="messages-section">
+  <button class="messages-close">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="15" y1="9" x2="9" y2="15" />
+      <line x1="9" y1="9" x2="15" y2="15" /></svg>
+  </button>
+  <div class="projects-section-header">
+    <p>Experiencia</p>
+  </div>
+  <div class="messages">
+    <div class="message-box">
+      <img src="./Galeria/logo.jpg">
+      <div class="message-content">
+        <div class="message-header">
+          <div class="name">SOCIEDAD PORTUARIA CARTAGENA</div>
+          <div class="star-checkbox">
+            <input type="checkbox" id="star-1">
+            <label for="star-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+            </label>
+          </div>
+        </div>
+        <p class="message-line">
+          Tecnico Soporte Nivel 3.
+        </p>
+        <p class="message-line time">
+          Octubre, 2008. 
+        </p>
+        <p class="message-line time">
+          Junio, 2009.
+        </p>
+      </div>
+    </div>
+    <div class="message-box">
+      <img src="./Galeria/logo.jpg">
+      <div class="message-content">
+        <div class="message-header">
+          <div class="name">CONTECAR</div>
+          <div class="star-checkbox">
+            <input type="checkbox" id="star-2">
+            <label for="star-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+            </label>
+          </div>
+        </div>
+        <p class="message-line">
+          Tecnico Soporte Nivel 5.
+        </p>
+        <p class="message-line time">
+          Junio, 2009. 
+        </p>
+        <p class="message-line time">
+          Actualmente. 
+        </p>
+      </div>
+    </div>
+    <div class="message-box">
+      <img src="./Galeria/foto.jpg">
+      <div class="message-content">
+        <div class="message-header">
+          <div class="name">FREELANCE</div>
+          <div class="star-checkbox">
+            <input type="checkbox" id="star-4">
+            <label for="star-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+            </label>
+          </div>
+        </div>
+        <p class="message-line">
+          Desarrollador Junior.
+        </p>
+        <p class="message-line">
+          Python, Flask, AWS, Git y GitHub, HTML, CSS, JavaScript, React, SQL.
+        </p>
+        <p class="message-line time">
+          Diciembre, 2018. 
+        </p>
+        <p class="message-line time">
+          Enero 2021. 
+        </p>
+      </div>
+    </div>
+    <div class="message-box">
+      <img src="./Galeria/foto.jpg">
+      <div class="message-content">
+        <div class="message-header">
+          <div class="name">PROYECTOS</div>
+          <div class="star-checkbox">
+            <input type="checkbox" id="star-4">
+            <label for="star-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+            </label>
+          </div>
+        </div>
+
+        <div class="box-progress-wrapper">
+          <p class="message-line">Password Generator (Python)</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #05c3a9"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+        
+        <div class="box-progress-wrapper">
+          <p class="message-line">Digital Clock (Python)</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 100%; background-color: #05c3a9"></span>
+          </div>
+          <p class="box-progress-percentage">100%</p>
+        </div>
+
+        <div class="box-progress-wrapper">
+          <p class="message-line">Portafolio (HTML,CSS,JavaScript)</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 90%; background-color: #05c3a9"></span>
+          </div>
+          <p class="box-progress-percentage">90%</p>
+        </div>
+
+        <div class="box-progress-wrapper">
+          <p class="message-line">E-Commerce (HTML,CSS,JavaScript,React)</p>
+          <div class="box-progress-bar">
+            <span class="box-progress" style="width: 30%; background-color: #05c3a9"></span>
+          </div>
+          <p class="box-progress-percentage">30%</p>
+        </div>
+          <p class="message-line time">
+            Actualmente. 
+          </p>  
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+    
+</body>
+</html>
