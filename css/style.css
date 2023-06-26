@@ -226,7 +226,9 @@ h4 {
 /* Hero image */
 .content .content-image img {
   width: 350px;
-  border-radius: 45%;
+  height: auto;
+  border-radius: 100%;
+  margin-left: -50px;
   padding: 20px;
   transform: translateY(-70px);
 }
@@ -264,7 +266,7 @@ h4 {
   padding-left: 2rem;
 }
 
-/* Skills Section */
+/* Skills Section 
 #skills {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -307,7 +309,7 @@ h4 {
 .box-container h3 {
   font-size: 1rem;
 }
-
+*/
 
 
 /* Projects */
