@@ -227,7 +227,7 @@ h4 {
 .content .content-image img {
   width: 350px;
   height: auto;
-  border-radius: 100%;
+  border-radius: 50%;
   margin-left: -50px;
   padding: 20px;
   transform: translateY(-70px);
@@ -469,12 +469,15 @@ h4 {
 
 /* Form */
 .form-container {
-  display: grid;
+  justify-content: center;
+ 
+  align-items:center;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
 }
 
 .form-image {
+  
   background: url(/img/home/Pattern.svg) no-repeat center left/cover;
   object-fit: cover;
 }
