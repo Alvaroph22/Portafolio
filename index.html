@@ -1,502 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Frontend Developer, Open Source, CommunityPro" />
-    <meta http-equiv="X-UA Compatible" content="ie=edge" />
-    <meta name="google-site-verification" content="IzcWMgn5Qjf-LCtA337KTGjivsf9bmod_1pZ-jxYQh8" />
-    <title>Mi Portafolio</title>
 
-    <!-- Style -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/global.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/portafolio.png">
+    <title>Alvaro Periñan Hernandez</title>
+    
 
-  <body id="home">
-    <header id="hero">
-      <nav id="navbar-scroll" class="navbar">
-        
-        <h1 class="logo">
-          <a href="#home">
-             <span class="icon fab fa-adn"></span>            
-          </a>
-        </h1>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-        <div id="menu">
-          <ul class="nav-menu">
-            <li class="nav-items">
-              <a href="#about" class="nav-link"
-                ><i class="nav-icon fas fa-user"></i> ABOUT</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#about" class="nav-link"
-                ><i class="nav-icon fas fa-cog"></i> SKILLS</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#projects" class="nav-link"
-                ><i class="nav-icon fas fa-code"></i> PROJECTS</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#contact" class="nav-link"
-                ><i class="nav-icon fas fa-address-book"></i> CONTACT</a
-              >
-            </li>
+    <!-- box icons -->0
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-            <div class="theme-switch-wrapper">
-              <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
-                <div class="slider round"></div>
-              </label>
-            </div>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-      </nav>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-      <section class="content container">
-        <div class="content-text">
-          <h1>Alvaro Enrique Periñan Hernandez</h1>
-          <h2 class="text-secondary">Software Developer,</h2>
-          <h2 class="text-secondary">DevOps</h2>
-          <h2 class="text-secondary">& Technical Support</h2>
-          <br>
+<body>
 
-          <!-- Resume -->
-          <a
-            href="https://docs.google.com/document/d/1YNMYoNHwv0oRlWoqVQ7vRL6NSdZ50kQCUsAQ3xMjoh0/edit"
-            class="btn"
-            >Curriculum</a>
-        </div>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">APH</a>
 
-        <!-- Personal Image -->
-        <div class="content-image">
-          <img src="./img/Foto2.png" alt="Foto"/>
-        </div>
-      </section>
-      
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
     </header>
-    <main>
-      <!-- About Section -->
-      <section id="about">
-        <div class="bio container">
-          <h2 class="head-text">
-            ABOUT ME
-          </h2>  
-          
-          <p> 
-            Soy un apasionado desarrollador de software y DevOps con sólidos conocimientos en Python, Java, SQL, AWS, Azure, HTML, CSS, JavaScript y Git. 
-            Aunque tengo poca experiencia profesional, mi entusiasmo por la tecnología y mi dedicación me han llevado a adquirir un amplio conjunto 
-            de habilidades en el ámbito de la programación y la gestión de infraestructuras.
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Alvaro Periñan H.</h1>
+            <p>
+                Soy un desarrollador web al que le encanta crear sitios web hermosos y funcionales
+                para personas que quieren marcar la diferencia en el mundo.
+            </p>
+
+            <div class="social-media">
+                <a href="https://github.com/Alvaroph22"  target="_blank" ><i class='bx bxl-github'></i></a>
+                <a href="https:www.linkedin.com/in/alvaro-enrique-perinan-hernandez"  target="_blank" ><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:alvaroperinan@gmail.com"  target="_blank" ><i class='bx bxl-gmail'></i></a>
+            </div>
+
+            <a href="https://docs.google.com/document/d/1YNMYoNHwv0oRlWoqVQ7vRL6NSdZ50kQCUsAQ3xMjoh0/edit" class="btn"  target="_blank" >Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <h3>Software Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <h3>Cloud Computer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <h3>IT Support</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <!--<div class="home-img">
+            <img src="images/home.png" alt="">
+        </div> -->
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"> <span>About Me</span></h2>
+            <h3>
+                ¡Hola! Soy Alvaro, un apasionado desarrollador de software con un amor profundo por el mundo del desarrollo web. 
+                Mi viaje en el campo de la tecnología ha sido impulsado por la emoción de crear soluciones innovadoras y 
+                funcionales mediante el código.
+            </h3>
+            <p>
+                Mi objetivo es fusionar la creatividad con la capacidad técnica, construyendo soluciones 
+                que no solo resuelvan problemas, sino que también mejoren la forma en que interactuamos con la tecnología. 
+            </p>
+            <p>
+                Siempre listo para el próximo desafío, estoy emocionado por lo que el futuro tiene reservado y cómo puedo seguir 
+                aportando al mundo del desarrollo de software. 
+            </p>
+            <p>¡Bienvenido a mi mundo de código y creatividad!</p>
+  
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading"><span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Software Developer</h3>
+                <p>Python - Flask - FastAPI - JavaScript - ReactJS - NodeJs - SQL - Git Hub - HTML5 - CSS3 - Docker</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cloud'></i>
+                <h3>Cloud Computer</h3>
+                <p>AWS - Amazon S3 - EC2 -  Amazon Lambda - Amazon RDS - Amazon VPS - Amazon CloudFront - Azure Devops</p>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bx-support'></i>
+                <h3>IT Support</h3>
+                <p>Microsoft Windows - Mac OS - Linux - Office 365 - Redes - HelpDesk - Hardware - Software -  Servidores</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>RG Construcciones</h4>
+                    <p>HTML5-CSS3-Javascript-React-Vercel</p>
+                    <a href="https://rg-construcciones.vercel.app" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>To do list</h4>
+                    <p>HTML5-CSS3-Javascript-Github page</p>
+                    <a href="https://alvaroph22.github.io/to-do-list/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Encriptador de texto</h4>
+                    <p>HTML5-CSS3-Javascript-Github page</p>
+                    <a href="https://alvaroph22.github.io/encriptador-de-texto/" target="_blank"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/fondo.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Autenticacion</h4>
+                    <p>Python - Visual Studio Code - Git - Github</p>
+                    <a href="https://github.com/Alvaroph22/Authentication" target="_blank"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/fondo.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Hotel Alura</h4>
+                    <p>Java - Git - Github</p>
+                    <a href="https://github.com/Alvaroph22/challenge-one-alura-hotel-latam" target="_blank"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/fondo.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Conversor de Monedas</h4>
+                    <p>Java - Api - Git - Github</p>
+                    <a href="https://github.com/Alvaroph22/Conversor-de-Monedas" target="_blank"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+
             
-          </p>
-
-          <p>
-            Actualmente, estudio y desarrollo proyectos web a pequeñas y medianas empresas. Soy una persona curiosa por 
-            lo que aprender hace parte de mi día a día, me motivan los desafíos y busco oportunidades laborales en el área
-            de desarrollo de software donde pueda poner en práctica mis habilidades y seguir adquiriendo conocimientos.
-          </p>
-
-          
-          <p>
-            Tecnologías y herramientas que actualmente estoy explorando y sobre las que estoy interesado.
-          </p>
-
-          <ul class="language">
-            <li>HTML5 - CSS3</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>MySQL</li>
-            <li>Azure</li>
-            <li>AWS</li>
-            <li>Docker</li>
-            <li>Terraform</li>
-            <li>Kubernetes</li>
-            <li>Git - GitHub</li>
-          </ul>
-
-          <!-- Technologies Section-->
-          <section class="container icons-container">
-            <div class="icons">
-              <span class="icon fab fa-html5" title="HTML5"></span>
-              <span class="icon fab fa-css3-alt" title="CSS3"></span>
-              <span class="icon fab fa-js" title="JavaScript"></span>
-              <span class="icon fab fa-python" title="Python"></span>
-              <span class="icon fab fa-java" title="java"></span>
-              <span class="icon fas fa-database" title="Data Base"></span>
-              <span class="icon fab fa-git-alt" title="Git"></span>
-              <span class="icon fab fa-github" title="GitHub"></span>
-              <span class="icon fab fa-docker" title="Docker"></span>
-              <span class="icon fab fa-aws" title="Amazon Web Services"></span>
-              <span class="icon fab fa-jenkins" title="Jenkins"></span>
-              <span class="icon fas fa-dharmachakra" title="Kubernetes"></span>
-                          
-            </div>
-          </section>
-
         </div>
-      </section>
+    </section>
+    
 
-      
-      <!-- Projects Section-->
-      <section id="projects" class="container">
-        <h2 class="head-text">
-          PROJECTS
-        </h2>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>Contact Me!</span></h2>
 
-        <div id="project-full">
-          <article class="project-content">
-            <div class="project-image project-image-one">
-              <img
-                src="./img/projects/Rgcontrucciones.png"
-                alt="RG Construcciones"
-              />
-              <a
-                class="btn btn-two"
-                href="https://rg-construcciones.vercel.app"
-                target="_blank"
-                >Preview Link</a
-              >
+        <form action="https://formsubmit.co/alvaroperinan@gmail.com" method="POST"">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="email"placeholder="Email Address">
             </div>
+            <textarea name="menssage" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" name="submit" value="Send Message" class="btn">
+            <input type='hidden' name='_next' value='#home'/>
+            <input type='hidden' name='_captcha' value='false'/>
+        </form>
 
-            <div class="card-content">
-              <h2>RG Construcciones</h2>
-              
-              <div class="project-info">
-                <div class="stack">
-                  <small class="language">HTML5</small>
-                  <small class="language">CSS3</small>
-                  <small class="language">JavaScript</small>
-                  <small class="language">React</small>
-                  <small class="language">Vercel</small>
-                </div>
+    </section>
 
-                <div class="project-links">
-                  <a
-                    href="https://rg-construcciones.vercel.app"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-         <!-- Proyecto 1 -->
-          <article class="project-content">
-            <div class="project-image project-image-one">
-              <img
-                src="./img/projects/Portafolio.png"
-                alt="Mi Portafolio"
-              />
-              <a
-                class="btn btn-two"
-                href="https://alvaroperinan.netlify.app/"
-                target="_blank"
-                >Preview Link</a
-              >
-            </div>
-
-            <div class="card-content">
-              <h2>Portafolio</h2>
-              
-              <div class="project-info">
-                <div class="stack">
-                  <small class="language">HTML5</small>
-                  <small class="language">CSS3</small>
-                  <small class="language">JavaScript</small>
-                  <small class="language">NETLIFY</small>
-                </div>
-
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Alvaroph22/Portafolio"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <a
-                    href="https://alvaroperinan.netlify.app/"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <!-- Proyecto 2 -->
-          <article class="project-content">
-            <div class="project-image project-image-one">
-              <img
-                src="./img/projects/Todolist.png"
-                alt="To do list"
-              />
-              <a
-                class="btn btn-two"
-                href="https://alvaroph22.github.io/to-do-list/"
-                target="_blank"
-                >Preview Link</a
-              >
-            </div>
-
-            <div class="card-content">
-              <h2>To do list</h2>
-              <div class="project-info">
-                <div class="stack">
-                  <small class="language">HTML5</small>
-                  <small class="language">CSS3</small>
-                  <small class="language">JavaScript</small>
-                  <small class="language">GITHUB-PAGE</small>
-                </div>
-
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Alvaroph22/to-do-list"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <a
-                    href="https://alvaroph22.github.io/to-do-list/"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <!-- Proyecto 3 -->
-          <article class="project-content">
-            <div class="project-image project-image-one">
-              <img
-                src="./img/projects/Encriptador de texto.png"
-                alt="Encriptador de Texto"
-              />
-              <a
-                class="btn btn-two"
-                href="https://alvaroph22.github.io/encriptador-de-texto/"
-                target="_blank"
-                >Preview Link</a
-              >
-            </div>
-
-            <div class="card-content">
-              <h2>Encriptador de texto</h2>
-              <div class="project-info">
-                <div class="stack">
-                  <small class="language">HTML5</small>
-                  <small class="language">CSS3</small>
-                  <small class="language">JavaScript</small>
-                  <small class="language">GITHUB-PAGE</small>
-                </div>
-
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Alvaroph22/encriptador-de-texto"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <a
-                    href="https://alvaroph22.github.io/encriptador-de-texto/"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          
-
-        <!-- Other Projects -->
-        <h2 class="head-text">
-          More Projects
-        </h2>
-        <div class="project-container">
-          
-          <div class="card">
-            
-            <div class="icon-header">
-              <a
-                href="https://github.com/Alvaroph22/Authentication" target="_blank"  rel="no-opener no-referrer"  title="Github">
-                <span class="fab fa-github"></span>
-              </a>
-             
-              <a href="https://github.com/Alvaroph22/Authentication" target="_blank" rel="no-opener no-referrer" title="Live Preview">
-                <span class="fas fa-external-link-alt"></span>
-              </a>
-
-            </div>
-            <header>
-              <h3>Autenticacion</h3>
-              <p>
-                El código es una implementación básica de autenticación de usuario en Python. Utiliza una combinación de entrada de 
-                usuario y comparación con datos almacenados para determinar si el usuario se autentica correctamente.
-              </p>
-            </header>
-
-            <ul>
-              <li class="language">PYTHON</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <div class="icon-header">
-              <a
-                href="https://github.com/Alvaroph22/challenge-one-alura-hotel-latam"
-                title="Github"
-                target="_blank"
-                rel="no-opener no-referrer"
-                ><span class="fab fa-github"></span
-              ></a>
-              <a
-                href="https://github.com/Alvaroph22/challenge-one-alura-hotel-latam"
-                title="Live Preview"
-                target="_blank"
-                rel="no-opener no-referrer"
-                ><span class="fas fa-external-link-alt"></span
-              ></a>
-            </div>
-            <header>
-               <h3>Hotel Alura</h3>
-               <p>Challenge de alura Latan. Software para el registro de huespedes y reserva de habitaciones.</p>
-            </header>
-            <ul>
-              <li class="language">JAVA</li>
-              <li class="language">MySQL</li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <div class="icon-header">
-              <a
-                href="https://github.com/Alvaroph22/Conversor-de-Monedas"
-                title="Github"
-                target="_blank"
-                rel="no-opener no-referrer"
-                ><span class="fab fa-github"></span
-              ></a>
-              <a
-                href="https://github.com/Alvaroph22/Conversor-de-Monedas"
-                title="Live Preview"
-                target="_blank"
-                rel="no-opener no-referrer"
-                ><span class="fas fa-external-link-alt"></span
-              ></a>
-            </div>
-            <header>
-               <h3>Conversor de Monedas</h3>
-               <p>Challenge de alura Latan. Aplicativo para la conversion de monedas.</p>
-            </header>
-            <ul>
-              <li class="language">JAVA</li>
-              <li class="language">API</li>
-            </ul>
-          </div>
-
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
         </div>
-      </section>
 
-      <!-- Social -->
-      <section class="icons-container">
-        <div class="container">
-          <div class="social icons">
-            <a
-              href="https://github.com/Alvaroph22"
-              title="Github"
-              target="_blank"
-              class="fab fa-github">
-            </a>
-            <a
-              href="mailto:alvaroperinan@gmail.com"
-              title="Email"
-              target="_blank"
-              class="far fa-envelope"></a>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/alvaro-enrique-peri%C3%B1an-hernandez-289219220 "
-              title="Linkedin"
-              target="_blank"
-              class="fab fa-linkedin">
-            </a>
-            
-          </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact" class="contact">
-        <div class="container">
-
-          <div class="form-header">
-            <h2 class="head-text"> Contact  </h2>
-          </div>
-
-          <div class="form-container">
-            
-            <div class="form-page">
-              <form>
-
-                <div class="form-group group-bg">
-                  <label for="Name">Nombre</label>
-                  <input type="text" id="Name"  placeholder="Nombre" required/>
-                </div>
-
-                <div class="form-group group-bg">
-                  <label for="Subject">Correo Electronico o Linkedin</label>
-                  <input type="text" id="Subject" placeholder="Correo Electronico o Linkedin" required />
-                </div>
-
-                <div class="form-group group-bg">
-                  <label for="Mensaje">Mensaje</label>
-                  <textarea name="Message"  id="Message" placeholder="Mensaje"></textarea>
-                </div>
-
-                <div class="form-group">
-                  <button type="submit" value="submit" class="btn">Enviar</button>
-                </div>
-
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer id="footer">
-      <div class="container">
-        <div class="footer-container">
-          <div class="social">            
-
-            <div class="social icons">
-              <a href="https://github.com/Alvaroph22">
-                <span class="fab fa-github" title="GitHub"></span>
-              </a>
-            </div>
-
-          </div>
-          <p>Copyright &copy; Alvaro Enrique Periñan Hernandez 2023, All rights reserved</p>
-          
-          <a href="#home" class="btn-scroll-top" title="Home">
-            <span class="fas fa-angle-up"></span>
-          </a>
-
-        </div>
-      </div>
     </footer>
-      <script src="main.js"></script>
-  </body>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
 </html>
